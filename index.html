@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
+
 </head>
 
 <body>
@@ -21,29 +21,42 @@
             It’s easy.
         </h1>
         <div class="fm-container">
-            <form id="form" class="form">
+            <form id="form" class="form" action="https://formsubmit.co/abdo.myownone@gmail.com" method="POST">
                 <div class="fm-header">
-                    <input type="text" id='fName' required class="st-input" placeholder="First Name">
-                    <input type="text" id='lName' required class="st-input" placeholder="Last Name">
+                    <input type="text" id='fName' name="FirstName" required class="st-input" placeholder="First Name">
+                    <input type="text" id='lName' name="LastName" required class="st-input" placeholder="Last Name">
                 </div>
                 <div class="fm-footer">
-                    <input type="email" required class="st-input" name="email" id="email" placeholder="Email">
-                    <label for="q">Briefly tell us about your project and your current goals. How can we help
-                        you?</label>
-                    <input id="q" class="st-input" type="text">
+                    <input type="email" required class="st-input" name="Email" id="email" placeholder="Email">
+                    <label for="q">This seemingly impersonal contact us page will deliver your message directly to our
+                        inbox. We do our best to respond to everyone within 48 hours.</label>
+                    <input id="q" name="Message" class="st-input" type="text">
                 </div>
                 <button type="submit">send message
                 </button>
             </form>
             <div class="right">
-                <h2>Need<br> presentaion?</h2>
-                <p>You like what we do, but you need to demonstrate your team as well.Easy!</p>
+                <h2>Please <br>consider this.</h2>
+                <p>
+                    Occasionally we do accept guest posts for this website. Please be as specific as possible, with your
+                    request.
+
+
+
+                    We are not interested in hiring a web designer or an SEO specialist. Those emails goes directly to
+                    the bin.
+
+
+
+                    Cool? Ok, then feel free to get in touch. Talk to you soon.</p>
             </div>
         </div>
 
     </main>
 
+
     <img class="bottom-green" src="assets/imgs/Vector 4green-bottom.png" alt="" srcset="">
+
 </body>
 
 </html>
