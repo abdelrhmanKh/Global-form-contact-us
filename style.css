@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: future-bold;
+    src: url(assets/font/Futura\ Bold.otf);
+}
+
+@font-face {
+    font-family: future;
+    src: url(assets/font/futura\ medium\ bt.ttf);
+}
+
+@font-face {
+    font-family:
+        Futura Bk BT;
+    src: url(assets/font/Futura\ Book\ font.ttf);
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    font-family: future;
+    padding-inline: 3rem;
+}
+
+.bottom-green {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.container {
+
+    padding: 150px;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.container img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22%;
+
+}
+
+.container img.lines {
+    opacity: 0.5;
+    width: 47%;
+}
+
+.container h1 {
+    font-family: future-bold;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 0.02em;
+}
+
+.container .fm-container {
+    margin-top: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container .fm-container form {
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container .fm-container form .fm-header {
+    width: 100%;
+    display: flex;
+    gap: 38px;
+    margin-bottom: 42px;
+}
+
+.st-input {
+    font-family: inherit;
+    flex: 1;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+}
+
+.st-input:focus {
+    outline: none;
+}
+
+.container .fm-container form .fm-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    margin-bottom: 42px;
+}
+
+.container .fm-container form button {
+    padding: 15px 21px;
+    background-color: #FF8D5E;
+    color: #fff;
+    font-family: Futura Bk BT;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+
+}
+
+
+.container .fm-container .right {
+    border-left: 3px solid #ECECEC;
+    padding-left: 63px;
+    width: 45%;
+}
+
+.container .fm-container .right h2 {
+    font-family: future-bold;
+    font-size: 33px;
+    line-height: 42px;
+    margin-bottom: 25px;
+    letter-spacing: 0.025em;
+}
+
+.container .fm-container .right p {
+    width: 50%;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+@media (max-width:992px) {
+    .container h1 {
+        font-size: 55px;
+    }
+
+    .container .fm-container {
+        margin-top: 3.25rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .container .fm-container .right {
+        border: none;
+        padding-left: unset;
+        width: unset;
+        margin-bottom: 25px;
+    }
+
+    .container .fm-container .right p {
+        width: unset;
+    }
+
+    .container .fm-container .form {
+        width: unset;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        padding: 75px;
+    }
+}
