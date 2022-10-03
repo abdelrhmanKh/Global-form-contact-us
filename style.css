@@ -56,19 +56,19 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 22%;
+    width: 20%;
 
 }
 
 .container img.lines {
     opacity: 0.5;
-    width: 47%;
+    width: 42%;
 }
 
 .container h1 {
     font-family: future-bold;
     font-weight: 500;
-    font-size: 72px;
+    font-size: 65px;
     line-height: 76px;
     letter-spacing: 0.02em;
 }
@@ -124,6 +124,7 @@ body {
     cursor: pointer;
     font-size: 15px;
     border: none;
+    text-transform: capitalize;
 
 }
 
@@ -134,17 +135,17 @@ body {
     width: 45%;
 }
 
-.container .fm-container .right h2 {
+.container .fm-container .right h4 {
     font-family: future-bold;
-    font-size: 33px;
     line-height: 42px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     letter-spacing: 0.025em;
 }
 
 .container .fm-container .right p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
+    margin-bottom: 15px;
 }
 
 @media (max-width:992px) {
@@ -168,7 +169,6 @@ body {
 
     .container .fm-container .right p {
         width: unset;
-        font-size: 16px;
     }
 
     .container .fm-container .form {
